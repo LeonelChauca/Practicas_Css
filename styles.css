@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.caja{
+    background-color: beige;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+}
+.caja > div{
+    width: 5px;
+    height: 40px;
+    transition: all 1s ease;
+    left: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caja > div > h2{
+    transition: all 1s ease;
+}
+.caja > input{
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+::placeholder{
+    text-align: center;
+}
+.caja1{
+    background-color: black;
+}
+.caja2{
+    background-color: orange;
+}
+.caja3{
+    background-color: brown;
+}
+.caja4{
+    background-color: red;
+}
+.caja5{
+    background-color: blue;
+}
+.caja6{
+    background-color: white;
+}
+.caja7{
+    background-color: skyblue;
+}
+.caja8{
+    background-color: pink;
+}
+.caja > button{
+    display: block;
+    margin: 0 auto;
+}
